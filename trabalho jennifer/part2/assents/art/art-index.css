@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #184E77;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    min-width: 300px;
+}
+
+header h1 {
+    font-size: 160%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1vw;
+    margin-top: 25vh;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card_button button {
+    margin-top: 2vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    background-color: #184E77;
+    border-radius: 20px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card_button button:hover {
+    cursor: pointer;
+    background-color: #1a5786;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    font-size: 50px;
+}
+
+.nav div {
+    width: 20px;
+    height: 20px;
+    border: solid 1px #000;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav div:nth-child(1) {
+    background-color: #184E77;
+}
+
+.nav:hover {
+    cursor: pointer;
+}
